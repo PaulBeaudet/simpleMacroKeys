@@ -13,6 +13,7 @@ Step 2: modify macroBar.ino "customKeys" array to include the characters you wis
 - Use time tracking to for more complex macros, the delay() function will block buttonUpdate() from working properly
 
 Step 3: Select proper board in the IDE and Upload code to Arduino
+
 Step 4: Unplug Arduino and wire buttons in. The simple way to do this is to use a breadboard and breadboardable tack switches. Wire one side of the button to ground and the other to one of the pins outlined in the "buttons" array mentioned in step 1. Repeat till all pins are wired.
 
 Step 5: Plug back in test and modify! Have fun. 
